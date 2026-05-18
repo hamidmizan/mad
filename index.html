@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Peta Bus Palembang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside id="sidebar">
+        <h2>Peta Rute</h2>
+        <div class="form-group">
+            <label>Asal</label><select id="asal"><option value="">Pilih...</option></select>
+        </div>
+        <div class="form-group">
+            <label>Tujuan</label><select id="tujuan"><option value="">Pilih...</option></select>
+        </div>
+        <button id="btn-cari" disabled style="width:100%">Cari Rute</button>
+        <div id="hasil-rute" style="margin-top:20px"></div>
+    </aside>
+
+    <main id="map-container"></main>
+
+    <div id="modal-halte" class="modal hidden">
+        <div class="modal-content">
+            <h3>Halte Baru</h3>
+            <input type="text" id="input-nama-halte" placeholder="Nama Halte">
+            <button id="btn-simpan-halte">Simpan</button>
+            <button class="btn-batal" style="background:#e74c3c">Batal</button>
+        </div>
+    </div>
+
+    <div id="modal-rute" class="modal hidden">
+        <div class="modal-content">
+            <h3>Hubungkan Rute</h3>
+            <p id="rute-info"></p>
+            <input type="number" id="input-jarak" placeholder="Jarak (km)">
+            <select id="input-jenis-bus">
+                <option value="bus_kota">Bus Kota (Rp3rb)</option>
+                <option value="brt">BRT (Rp5rb)</option>
+                <option value="bus_mini">Bus Mini (Rp2rb)</option>
+            </select>
+            <button id="btn-simpan-rute">Simpan Rute</button>
+            <button class="btn-batal" style="background:#e74c3c">Batal</button>
+        </div>
+    </div>
+
+    <div id="stop-menu" class="hidden">
+        <div class="menu-item" id="btn-menu-connect"><img src="rope.png" width="20"> Hubungkan</div>
+        <div class="menu-item" id="btn-menu-delete" style="color:red"><img src="trash.png" width="20"> Hapus</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
