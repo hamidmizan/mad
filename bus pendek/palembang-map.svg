@@ -1,0 +1,39 @@
+<svg width="1300" height="650" viewBox="0 0 1300 650" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1300" height="650" fill="#f0f4f0" />
+  
+  <path d="M 330,140 
+           L 440,160 L 480,260 L 530,300 L 570,360 L 530,500 L 510,550 
+           L 400,560 L 350,540 L 360,450 L 330,400 L 300,380 L 290,300 
+           L 240,280 L 250,200 L 280,140 Z" 
+        fill="#ffffff" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,3" />
+
+  <path d="M 100,480 Q 250,530 350,450 T 450,420 T 550,410 T 700,250 L 720,100" 
+        fill="none" stroke="#a2d9ff" stroke-width="20" opacity="0.6" />
+  
+  <line x1="435" y1="405" x2="435" y2="435" stroke="#d0021b" stroke-width="4" />
+
+  <g font-family="Arial" font-size="10" fill="#333">
+    <circle cx="340" cy="220" r="4" fill="#3498db" />
+    <text x="350" y="215" font-weight="bold">Sultan Mahmud Badaruddin II Airport</text>
+    
+    <circle cx="480" cy="480" r="4" fill="#27ae60" />
+    <text x="490" y="485" font-weight="bold">Jakabaring Sport City</text>
+
+    <text x="440" y="380" font-size="14" font-weight="bold" fill="#2c3e50">PALEMBANG</text>
+
+    <text x="250" y="160" fill="#95a5a6">Talangbetutu</text>
+    <text x="500" y="220" fill="#95a5a6">Kenten</text>
+    <text x="530" y="440" fill="#95a5a6">Plaju</text>
+  </g>
+
+  <text x="20" y="40" font-family="Arial" font-size="20" font-weight="bold" fill="#2c3e50">Peta Administratif Kota Palembang</text>
+  <text x="20" y="60" font-family="Arial" font-size="12" fill="#7f8c8d">Provinsi Sumatera Selatan</text>
+  
+  <rect x="20" y="550" width="180" height="70" fill="white" opacity="0.8" stroke="#bdc3c7" />
+  <line x1="30" y1="565" x2="50" y2="565" stroke="#e74c3c" stroke-width="2" stroke-dasharray="3,2" />
+  <text x="60" y="570" font-family="Arial" font-size="10">Batas Kota (Garis Merah)</text>
+  <rect x="30" y="580" width="20" height="10" fill="#a2d9ff" />
+  <text x="60" y="588" font-family="Arial" font-size="10">Sungai Musi</text>
+  <line x1="30" y1="605" x2="50" y2="605" stroke="#d0021b" stroke-width="3" />
+  <text x="60" y="608" font-family="Arial" font-size="10">Jembatan Ampera</text>
+</svg>
